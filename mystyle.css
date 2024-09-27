@@ -1,0 +1,24 @@
+.navbar {
+    margin-bottom: 0;
+    background-color:darkorange;
+    border: 20px;
+    font-size: 11px !important;
+    letter-spacing: 2px;
+    opacity: 0.9;
+  }
+  .navbar li a, .navbar .navbar-brand {
+    color: #ffffff!important;
+  }
+  
+  .navbar-default .navbar-toggle {
+    border-color: transparent;
+  }
+  
+  .open .dropdown-toggle {
+    color: #fff ;
+    background-color:darkorange !important;
+  }
+  
+  .dropdown-menu li a {
+    color: darkorange !important;
+  }
