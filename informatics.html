@@ -20,7 +20,7 @@
   opacity: 1;
 }
 .navbar li a, .navbar .navbar-brand {
-  color: #ffffff!important;
+  color:white!important;
 }
 
 .navbar-default .navbar-toggle {
@@ -37,14 +37,35 @@
 }
 .jumbotron {
   background-color: #f4511e; /* Orange */
-  color: #ffffff;
+  color:white;
   font-family: "Lucida console";
+  padding: 100px 25px;
 }
+
+.container-fluid {
+  padding: 30px 20px;
+}
+
+.logo {
+  font-size: 200px;
+}
+@media screen and (max-width: 768px) {
+  .col-sm-4 {
+    text-align: center;
+    margin: 25px 0;
+  }
+}
+
+.container-fluid {
+  padding: 30px 20px;
+}
+
+
 </style>
 
 <body>
     <nav class="navbar navbar-default navbar-fixed-top">
-        <div class="container-fluid">
+        <div class="container-fluid-nav">
           <div class="navbar-header">
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
               <span class="icon-bar"></span>
@@ -80,13 +101,33 @@
 <div class="jumbotron text-center">
   <h1>The British Informatics Olympiad</h1>
 </div>
-    <div id="overview" class="container text-center">
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-sm-8">
+      <h2 style="color:darkorange;">About the BIO</h2>
       <p>The British Informatics Olympiad (BIO) is an annual competition in computer programming for secondary schools and sixth form colleges. Any student who is under 19, in full time pre-university education and resident in mainland Britain, is eligible to take part and may win prizes including an expenses-paid trip to the prestigious International Olympiad in Informatics (IOI).
-      <br>The first stage of the BIO is a three-hour exam, taken at school, in which students solve problems with the aid of a computer. These are marked by a teacher and submitted for moderation. Based on the results of this exam, the top 15 competitors are invited to the BIO final in Cambridge during the Easter holidays. The best four make up the team to represent Britain at the IOI.</p><br>
-      <h3>Organisation and aims</h3>
+        <br>The first stage of the BIO is a three-hour exam, taken at school, in which students solve problems with the aid of a computer. These are marked by a teacher and submitted for moderation. Based on the results of this exam, the top 15 competitors are invited to the BIO final in Cambridge during the Easter holidays. The best four make up the team to represent Britain at the IOI.</p><br>  
+    </div>
+    <div class="col-sm-4">
+      <span class="img"><img width="360px" height="188px"src="96grptm.jpg"></span>
+    </div>
+  </div>
+</div>
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-sm-4">
+      <span class="img"><img width="295px" height="220px"src="bio97train1.jpg"></span>
+    </div>
+    <div class="col-sm-8">
+      <h2 style="color:darkorange;">Organisation and Aims</h2>
       <p>The BIO is a non-profit making organisation founded in 1995, aiming to encourage students to take an active interest in information technology, to allow them to meet and exchange ideas, and to give the best the chance to compete at the International Olympiad in Informatics.
-      <br>In order to make the BIO as inclusive as possible, it is free to enter. This can only be achieved thanks to the aid of commercial sponsorship. We are always keen to hear from companies and organisations interested in supporting the BIO. </p>
-      </div>
+        <br>In order to make the BIO as inclusive as possible, it is free to enter. This can only be achieved thanks to the aid of commercial sponsorship. We are always keen to hear from companies and organisations interested in supporting the BIO. </p>
+        
+    </div>
+  </div>
+</div>
 
 </body>
 </html>
